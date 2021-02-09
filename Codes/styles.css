@@ -1,7 +1,7 @@
+
 .navbar-nav{
   display: flex;
   align-items: flex-end;
-
 }
 
 a img{
@@ -80,4 +80,8 @@ button{
 footer {
   color: white;
   background-color: red;
+}
+
+@media(max-width:960px) {
+
 }
