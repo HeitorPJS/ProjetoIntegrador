@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="pagamento.js"></script>
+    <link rel="stylesheet" href="stylepagamento.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-$white bg-$white static-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                    <img src="./img/logo.jpeg" alt="LogoSite"><span class="sr-only">(current)</span>
+                  </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Alugar </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Vender</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Entrar</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </nav>
+    </header>
+<br>
+
+<div class="container-fluid">
+<div class="col-12">
+<div class="container">
+<div class="col-md-12">
+<div class="check-inner">
+ <div class="checkout-panel">
+    <div class="panel-body">
+      <h2 class="title">Pague Aqui</h2>
+    
+       <div class="payment-method">
+        <label for="card" class="method card">
+            <div class="card-logos">
+                <img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png"/>
+                <img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png"/>
+            </div>
+            <div class="radio-input">
+            <input id="card" type="radio" name="payment">
+            </div>
+        </label>
+   
+        <label for="paypal" class="method paypal">
+          <img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"/>
+          <div class="radio-input">
+            <input id="paypal" type="radio" name="payment">
+            
+          </div>
+        </label>
+      </div>
+   
+      <div class="input-fields">
+        <div class="column-1">
+          <label for="cardholder">Nome</label>
+          <input type="text" id="cardholder" />
+   
+          <div class="small-inputs">
+            <div>
+              <label for="date">Validade</label>
+              <input type="text" id="date"/>
+            </div>
+   
+            <div>
+              <label for="verification">CVV/CVC *</label>
+              <input type="password" id="verification"/>
+            </div>
+          </div>
+   
+        </div>
+        <div class="column-2">
+          <label for="cardnumber">Número do Cartão</label>
+          <input type="password" id="cardnumber"/>
+   
+          <span class="info">* CVV ou CVC é o código de segurança que geralmente fica na parte de trás do seu cartão.</span>
+        </div>
+      </div>
+    </div>
+   
+    <div class="panel-footer">
+      <button class="btn back-btn">Voltar</button>
+      <button class="btn next-btn">Próximo</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+
+  <footer>
+    <br>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-4">
+                <p>Informações de contato</p>
+                
+
+            </div>
+            <div class="col-4">
+                <p>Informações legais</p>
+                
+
+            </div>
+            <div class="col-4">
+                <p>Informações gerais</p>
+                
+
+            </div>
+        </div>
+    </div>
+
+        <hr>
+        <div class="container">
+           <div class="row">
+               <div class="col-md-12 d-flex justify-content-center">
+                    <p>Desenvolvido pelo Time2</p>
+                </div>
+            </div>
+        </div>
+           
+    
+    
+</footer>
+
+</body>
+</html>
