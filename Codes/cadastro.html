@@ -1,36 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title></title>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-$white bg-$white static-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                    <img src="./img/logo.jpeg" alt="LogoSite"><span class="sr-only">(current)</span>
+                  </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Alugar </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Vender</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Entrar</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </nav>
+    </header>
+  
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="container"> 
+                    <form>
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" placeholder="Nome" id="nome">
+                            </div>
+                            <div class="col">
+                                <label for="sobrenome">Sobrenome</label>
+                                <input type="text" class="form-control" placeholder="Sobrenome" id="sobrenome">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Senha</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+                        </div>
+                        </div>
+                        <div class="form-group">
+                        <label for="inputAddress">Endereço</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
+                        </div>
+                        <div class="form-group">
+                        <label for="inputAddress2">Endereço 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
+                        </div>
+                        <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">Cidade</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputEstado">Estado</label>
+                            <select id="inputEstado" class="form-control">
+                            <option selected>Escolher...</option>
+                            <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputCEP">CEP</label>
+                            <input type="text" class="form-control" id="inputCEP">
+                        </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>   
+<footer>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-4">
+                
+
+            </div>
+            <div class="col-4">
+                
+
+            </div>
+            <div class="col-4">
+                
+
+            </div>
+        </div>
+    </div>
+
+        <hr>
+        <div class="container">
+           <div class="row">
+               <div class="col-md-12 d-flex justify-content-center">
+                    <p>Desenvolvido pelo Time2</p>
+                </div>
+            </div>
+        </div>
+           
     
-    <div class="header">
-        <img src="/img/logo.jpeg" alt=""/>
-        <div class="header-texts">
-            <p>ALUGAR</p>
-            <p>COMPRAR</p>
-            <p>ENTRAR</p>
-        </div>
-    </div>
-
-    <div class="search">
-        <div>
-            <input placeholder="Digite a cidade"/>
-            <button>Pesquisar</button>
-        </div>
-    </div>
-
-    <div>
-        <p>
-        <h1>Explore </h1>
-        </p>
-    </div>
+    
+</footer>
 
 </body>
 

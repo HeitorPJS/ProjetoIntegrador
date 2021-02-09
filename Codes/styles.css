@@ -29,6 +29,24 @@ justify-content: center;
   padding: 30px;
 }
 
+.col-lg-12{
+  background-image: url(./img/gettyimages-831839554_saopaulo.jpg);
+  width: 100vw;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+form {
+  background-color: whitesmoke;
+  padding: 4%;
+}
+
 .col-3 {
   padding: white;
   padding: 5px;
