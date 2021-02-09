@@ -85,3 +85,15 @@ footer {
 @media(max-width:960px) {
 
 }
+
+.chat{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.chat img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
