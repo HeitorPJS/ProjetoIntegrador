@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-$white bg-$white static-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                    <img src="./img/logo.jpeg" alt="LogoSite"><span class="sr-only">(current)</span>
+                  </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Alugar </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Vender</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Entrar</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </nav>
+    </header>
+  
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="container"> 
+                    <form>
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" placeholder="Nome" id="nome">
+                            </div>
+                            <div class="col">
+                                <label for="sobrenome">Sobrenome</label>
+                                <input type="text" class="form-control" placeholder="Sobrenome" id="sobrenome">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Senha</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+                        </div>
+                        </div>
+                        <div class="form-group">
+                        <label for="inputAddress">Endereço</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
+                        </div>
+                        <div class="form-group">
+                        <label for="inputAddress2">Endereço 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
+                        </div>
+                        <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">Cidade</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputEstado">Estado</label>
+                            <select id="inputEstado" class="form-control">
+                            <option selected>São Paulo</option>
+                            <option>Mato Grosso</option>
+                            <option>Distrito Federal</option>
+                            <option>Mato Grosso do Sul</option>
+                            <option>Goias</option>
+                            <option>Rio de Janeiro</option>
+                            <option>Espirito Santo</option>
+                            <option>Minas Gerais</option>
+                            <option>Santa Catarina</option>
+                            <option>Paraná</option>
+                            <option>Rio Grande do Sul</option>
+                            <option>Amazonas</option>
+                            <option>Rondonia</option>
+                            <option>Roraima</option>
+                            <option>Acre</option>
+                            <option>Maranhão</option>
+                            <option>Paraiba</option>
+                            <option>Bahia</option>
+                            <option>Sergipe</option>
+                            <option>Alagoas</option>
+                            <option>MPernambuco</option>
+                            <option>Rio Grande do Norte</option>
+                            <option>Tocantins</option>
+                            <option>Pará</option>
+                            <option>Ceará</option>
+                            <option>Piauí</option>
+                            <option>Amapá</option>
+
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputCEP">CEP</label>
+                            <input type="text" class="form-control" id="inputCEP">
+                        </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>   
+
+<footer>
+    <br>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-4">
+                <p>Informações de contato</p>
+                
+
+            </div>
+            <div class="col-4">
+                <p>Informações legais</p>
+                
+
+            </div>
+            <div class="col-4">
+                <p>Informações gerais</p>
+                
+
+            </div>
+        </div>
+    </div>
+
+        <hr>
+        <div class="container">
+           <div class="row">
+               <div class="col-md-12 d-flex justify-content-center">
+                    <p>Desenvolvido pelo Time2</p>
+                </div>
+            </div>
+        </div>
+           
+    
+    
+</footer>
+
+</body>
+
+</html>

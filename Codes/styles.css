@@ -1,0 +1,87 @@
+
+.navbar-nav{
+  display: flex;
+  align-items: flex-end;
+}
+
+a img{
+  height: 10vh;
+}
+
+li a{
+  color: red;
+}
+
+.col-12 {
+background-image: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1110,h_508/https://blog.saluteimoveis.com/wp-content/uploads/2019/07/melhores-cidades-para-morar-1110x508.jpg");
+width: 100vw;
+height: 50vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100%;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.inner{
+  background-color: whitesmoke;
+  padding: 30px;
+}
+
+.col-lg-12{
+  background-image: url(./img/gettyimages-831839554_saopaulo.jpg);
+  width: 100vw;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+form {
+  background-color: whitesmoke;
+  padding: 4%;
+}
+
+.col-3 {
+  padding: white;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+hr{
+  width: 80vw;
+  color: white;
+}
+
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid red;
+    width: 60vw;
+}
+
+button{
+    padding: 5px;
+    background-color: red;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+footer {
+  color: white;
+  background-color: red;
+}
+
+@media(max-width:960px) {
+
+}
